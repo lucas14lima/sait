@@ -1,5 +1,7 @@
 @charset "UTF8";
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&family=Oswald:wght@200&display=swap');
+
 :root{
     --cor1: #F50B13;
     --cor2:#B5070D;
@@ -12,7 +14,7 @@
 }
 
 body{
-    background-color: white;
+    background-color: #99999965;
     font-family: sans-serif;
 }
 
@@ -24,8 +26,10 @@ header{
 
 header>h1{
     color: white;
-    font-size: 3em;
+    
     text-shadow: 2px 2px 2px black;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 
 nav{
@@ -42,3 +46,34 @@ nav>a{
     font-weight: bolder;
     
 }
+nav>a:hover{
+    background-color: var(--cor3);
+    border-radius: 3px;
+}
+
+main>article{
+    
+    
+    padding: 15px;
+    text-align: justify;
+}
+
+article>h1{
+    padding: 15px;
+}
+
+article>h2{
+    padding: 15px;
+
+}
+
+article>h3{
+    padding: 15px;
+}
+
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+
